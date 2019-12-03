@@ -44,11 +44,17 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
+<<<<<<< HEAD
       local_copy_of_matrix = assembled_matrix.dup
       local_copy_of_matrix[0][2] = "Tiny Ewell"
       local_copy_of_matrix
       
     
+=======
+    local_copy_of_matrix = assembled_matrix.dup
+      result = matrix_update(local_copy_of_matrix, 0, 2, "Tiny Ewell")
+      return result
+>>>>>>> 2c13f290491624a2c8643334ba6b0e602ad64c17
   # Update the matrix location at row and column to have the value of new_value
   # Return the updated matrix
 end
